@@ -21,11 +21,11 @@ function App() {
   const deleteDetail = (index) => {
     const update = detail.filter((_,i) => i !== index);
     setDetail(update);
-  }
+  }//manibro
   
   return (
     <div className=''>
-      <form className='flex flex-col gap-4'>
+      <form className='flex flex-row gap-4'>
         <input type='text' onChange={(e) => setName(e.target.value)} placeholder='Enter your name' required></input>
         <input type='text' onChange={(e) => setLocation(e.target.value)} placeholder='Enter your location' required></input>
         <input type='text' onChange={(e) => setFatherName(e.target.value)} placeholder='Enter your father name' required></input>
