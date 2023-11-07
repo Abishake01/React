@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
-
+import{ BrowserRouter as Router,Routes,Route } 
+/*
 function App() {
   const [name,setName] = useState('');
   const [location, setLocation] = useState('');
@@ -47,3 +48,4 @@ function App() {
 }
 
 export default App;
+*/
