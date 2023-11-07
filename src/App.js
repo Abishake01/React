@@ -1,6 +1,19 @@
-import { useState } from 'react';
+
 import './App.css';
-import{ BrowserRouter as Router,Routes,Route } 
+import{ BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Home from './pages/Home';
+
+function App(){
+  return(
+    <div>
+      <Router>
+        <Routes>
+          <Route path='/' element={<Home/>} />
+        </Routes>
+      </Router>
+    </div>
+  );
+}
 /*
 function App() {
   const [name,setName] = useState('');
@@ -49,3 +62,4 @@ function App() {
 
 export default App;
 */
+export default App;
